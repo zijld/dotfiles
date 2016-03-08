@@ -7,7 +7,7 @@ rm -rf ~/.dotfiles
 ln -s $SCRIPTPATH ~/.dotfiles
 
 # setup bash
-# rm ~/.bash_profile
+rm ~/.bash_profile
 # ln -s $SCRIPTPATH/bash_profile ~/.bash_profile
 
 # setup git
