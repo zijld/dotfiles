@@ -1,0 +1,17 @@
+user]
+    name = *******
+    email = *******
+[core]
+    editor = subl -n -w
+    autocrlf = false
+    safecrlf = false
+    excludesfile = ~/.gitignore
+    pager = less
+[color]
+    ui = true
+[push]
+    default = current
+[pull]
+    default = current
+[alias]
+        hist = log --all --graph --decorate --oneline
