@@ -37,4 +37,7 @@ Iterm2
 sequel pro
 transmit
 sublime 3
-
+spectacle
+alfred 2
+postman
+GitX
