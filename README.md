@@ -37,6 +37,7 @@ cd fonts
 
 ##Programs
 Brew
+tmux
 Iterm2
 sequel pro
 transmit
