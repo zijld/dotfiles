@@ -42,6 +42,7 @@ Iterm2<br />
 Sequel pro<br />
 Transmit<br />
 Sublime 3<br />
+ - theme: Material Theme<br />
 Spectacle<br />
 Alfred 2<br />
 Postman<br />
