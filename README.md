@@ -13,16 +13,16 @@ sudo mkdir -p "/usr/local/bin/" && ln -s /Applications/Sublime\ Text.app/Content
 ./setup.sh
 ```
 
-Edit files with credentials:
-gitconfig:
-name = username git
-email = email git
+Edit files with credentials:<br />
+gitconfig:<br />
+name = username git<br />
+email = email git<br />
 
 ##Oh my zsh + powerline + solarized iterm2
 
-required git and zsh
-Install solorized with doubleclick in terminal
-
+required git and zsh<br />
+Install solorized with doubleclick in terminal<br />
+<br />
 Open a terminal and execute the following commands:
 
 ```sh
@@ -36,22 +36,23 @@ cd fonts
 ```
 
 ##Programs
-Brew
-tmux
-Iterm2
-sequel pro
-transmit
-sublime 3
-spectacle
-alfred 2
-postman
-GitX
-padbury clock
-
+Brew<br />
+Tmux<br />
+Iterm2<br />
+Sequel pro<br />
+Transmit<br />
+Sublime 3<br />
+Spectacle<br />
+Alfred 2<br />
+Postman<br />
+GitX<br />
+Padbury clock<br />
+Fluid browser<br />
+Hocus Pocus<br />
 
 #Bug fixes
 
-Bug with subl:
+Bug with subl:<br />
 
 ```sh
 brew install reattach-to-user-namespace
