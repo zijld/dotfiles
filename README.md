@@ -42,7 +42,7 @@ Iterm2<br />
 Sequel pro<br />
 Transmit<br />
 Sublime 3<br />
- theme: Material Theme<br />
+&nbsp;&nbsp;&nbsp;Material Theme<br />
 Spectacle<br />
 Alfred 2<br />
 Postman<br />
@@ -50,6 +50,7 @@ GitX<br />
 Padbury clock<br />
 Fluid browser<br />
 Hocus Pocus<br />
+MacDown<br />
 
 #Bug fixes
 
