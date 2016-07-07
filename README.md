@@ -43,13 +43,14 @@ Sequel pro<br />
 Transmit<br />
 Sublime 3<br />
 &nbsp;&nbsp;&nbsp;Material Theme<br />
+Wunderlist<br />
 Spectacle<br />
 Alfred 2<br />
 Postman<br />
 GitX<br />
 Padbury clock<br />
 Fluid browser<br />
-Hocus Pocus<br />
+Hocus Focus<br />
 MacDown<br />
 
 #Bug fixes
