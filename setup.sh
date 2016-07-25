@@ -23,3 +23,6 @@ ln -s $SCRIPTPATH/tmux.conf ~/.tmux.conf
 # setup zsh
 rm ~/.zshrc
 ln -s $SCRIPTPATH/zshrc ~/.zshrc
+
+# setup vim
+rm -rf ~/.vim ~/.vimrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && ln -s $(pwd)/vimrc ~/.vimrc && ln -s $(pwd)/colors ~/.vim/colors

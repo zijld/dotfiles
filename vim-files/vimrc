@@ -1,0 +1,56 @@
+" Disable compatability with VI
+set nocompatible
+
+" Plugins
+call plug#begin('~/.vim/plugged')
+Plug 'airblade/vim-gitgutter'
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'mattn/emmet-vim'
+Plug 'StanAngeloff/php.vim'
+" Colors
+Plug 'tomasr/molokai'
+Plug 'chriskempson/vim-tomorrow-theme'
+call plug#end()
+
+colorscheme Tomorrow-night
+
+syntax on
+filetype plugin on
+filetype indent on
+
+" General settings
+set showcmd
+set showmatch
+set showmode
+set smartcase
+set smarttab
+set laststatus=2
+set ignorecase
+set ruler
+set autoindent
+set autoread
+set wrapscan
+set number
+set noerrorbells
+set nojoinspaces
+set backspace=start,indent,eol
+set t_Co=256
+
+" File locations
+" Disable swap files
+" Disable backup files
+set directory=~/.vim/tmp
+set backupdir=~/.vim/tmp
+set undodir=~/.vim/tmp
+set noswapfile
+set nobackup
+set nowritebackup
+set undofile
+
+" Removes trailing spaces
+function! RemoveTrailingSpaces()
+     %s/\s\+$//e
+endfunction
+
+autocmd BufWritePre * :call RemoveTrailingSpaces()

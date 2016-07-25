@@ -53,6 +53,12 @@ Fluid browser<br />
 Hocus Focus<br />
 MacDown<br />
 
+#Vim
+```sh
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+```
+
 #Bug fixes
 
 Bug with subl:<br />
