@@ -25,7 +25,11 @@ set showmatch
 set showmode
 set smartcase
 set smarttab
+set expandtab
+set softtabstop=4
+set tabstop=4
 set laststatus=2
+set listchars=tab:▸\ ,trail:.
 set ignorecase
 set ruler
 set autoindent
@@ -47,6 +51,18 @@ set noswapfile
 set nobackup
 set nowritebackup
 set undofile
+
+" Indenting
+autocmd FileType coffee setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+autocmd FileType scss setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType css setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType json setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType less setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType php setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+autocmd FileType python setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
 " Removes trailing spaces
 function! RemoveTrailingSpaces()
