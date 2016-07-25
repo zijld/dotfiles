@@ -25,4 +25,4 @@ rm ~/.zshrc
 ln -s $SCRIPTPATH/zshrc ~/.zshrc
 
 # setup vim
-rm -rf ~/.vim ~/.vimrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && ln -s $(pwd)/vimrc ~/.vimrc && ln -s $(pwd)/colors ~/.vim/colors
+rm -rf ~/.vim ~/.vimrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && ln -s $(pwd)/vim-files/vimrc ~/.vimrc && ln -s $(pwd)/vim-files/colors ~/.vim/colors
