@@ -43,6 +43,8 @@ Sequel pro<br />
 Transmit<br />
 Sublime 3<br />
 &nbsp;&nbsp;&nbsp;Material Theme<br />
+&nbsp;&nbsp;&nbsp;Emmet<br />
+&nbsp;&nbsp;&nbsp;gitGutter<br />
 Wunderlist<br />
 Spectacle<br />
 Alfred 3<br />
