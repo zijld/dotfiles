@@ -25,9 +25,11 @@ set showmatch
 set showmode
 set smartcase
 set smarttab
+set smartindent
 set expandtab
 set softtabstop=4
-set tabstop=4
+set shiftwidth=4
+set tabstop=8
 set laststatus=2
 set listchars=tab:▸\ ,trail:.
 set ignorecase
