@@ -45,16 +45,17 @@ Sublime 3<br />
 &nbsp;&nbsp;&nbsp;Material Theme<br />
 &nbsp;&nbsp;&nbsp;Emmet<br />
 &nbsp;&nbsp;&nbsp;gitGutter<br />
+Visual Studio code<br />
 Wunderlist<br />
 Spectacle<br />
 Alfred 3<br />
 Postman<br />
-GitX<br />
-Padbury clock<br />
+Fork<br />
+IOS lockscreen OSX<br />
 Fluid browser<br />
 Hocus Focus<br />
 MacDown<br />
-airmail<br />
+CommandQ<br />
 
 #Vim
 ```sh
