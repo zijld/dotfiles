@@ -38,7 +38,7 @@ cd fonts
 ##Programs
 Brew<br />
 Tmux<br />
-Iterm2<br />
+Iterm2 / Hyper terminal<br />
 Sequel pro<br />
 Transmit<br />
 Sublime 3<br />
@@ -54,14 +54,19 @@ Fork<br />
 IOS lockscreen OSX<br />
 Fluid browser<br />
 Hocus Focus<br />
-MacDown<br />
+IA Writer<br />
 CommandQ<br />
 
 #Vim
 ```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+vim 'any file'
+:PlugInstall
 ```
+
+#Brew
+Install Npm, MySQL, php54, php56, php70, python, upgrade pip.
 
 #Bug fixes
 
