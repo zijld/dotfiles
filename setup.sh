@@ -24,5 +24,9 @@ ln -s $SCRIPTPATH/tmux.conf ~/.tmux.conf
 rm ~/.zshrc
 ln -s $SCRIPTPATH/zshrc ~/.zshrc
 
+# setup hyper.js
+rm ~/.hyper.js
+ln -s $SCRIPTPATH/hyper.js ~/.hyper.js
+
 # setup vim
 rm -rf ~/.vim ~/.vimrc && curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && ln -s $(pwd)/vim-files/vimrc ~/.vimrc && ln -s $(pwd)/vim-files/colors ~/.vim/colors
