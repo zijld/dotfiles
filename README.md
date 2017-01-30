@@ -68,7 +68,7 @@ vim 'any file'
 ```
 
 #Brew
-Install Npm, MySQL, php54, php56, php70, python, upgrade pip.
+Install Npm, mariaDB, php54, php56, php70, python, upgrade pip, wget, nodejs, tmux
 
 #Bug fixes
 
