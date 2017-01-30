@@ -47,14 +47,18 @@
 	],
 	"installed_packages":
 	[
-		"Color Highlighter",
-		"ColorPicker",
-		"Emmet",
-		"GitGutter",
-		"jQuery",
-		"Material Theme",
-		"Package Control"
-	]
+            "ColorPicker",
+            "Emmet",
+            "Emmet Css Snippets",
+            "GitGutter",
+            "jQuery",
+            "Laravel Blade Highlighter",
+            "Material Theme",
+            "Glue",
+            "Package Control",
+            "Sass",
+            "Vue Syntax Highlight"
+        ]
 }
 
 
