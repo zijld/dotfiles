@@ -1,29 +1,13 @@
-::::::: PRIVATE :::::::
+::::::: ADDON - SETTINGS :::::::
+
+::: Color Highlighter :::
 
 {
-	"cololor_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"default_line_ending": "unix",
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"rulers":
-	[
-		80,
-		120
-	],
-	"tab_size": 4,
-	"theme": "Soda Light 3.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+        "style": "underlined"
 }
 
 
-::::::: WERK :::::::
+::::::: SETTING - USER :::::::
 
 {
         "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
@@ -69,8 +53,7 @@
 		"GitGutter",
 		"jQuery",
 		"Material Theme",
-		"Package Control",
-		"SideBarEnhancements"
+		"Package Control"
 	]
 }
 

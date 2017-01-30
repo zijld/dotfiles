@@ -19,7 +19,7 @@ module.exports = {
     backgroundColor: '#262626',
 
     // border color (window, tabs)
-    borderColor: '#e54bad',
+    borderColor: '#ff7043',
 
     // custom css to embed in the main window
     css: '',
@@ -45,7 +45,7 @@ module.exports = {
     // an array here instead of a color map object
     colors: {
       black: '#000000',
-      red: '#df2201',
+      red: '#e73738',
       green: '#33ff00',
       yellow: '#ffff00',
       blue: '#0075e9',
