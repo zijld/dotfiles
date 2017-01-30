@@ -41,10 +41,12 @@ Tmux<br />
 Iterm2 / Hyper terminal<br />
 Sequel pro<br />
 Transmit<br />
-Sublime 3<br />
+Sublime text 3<br />
 &nbsp;&nbsp;&nbsp;Material Theme<br />
 &nbsp;&nbsp;&nbsp;Emmet<br />
-&nbsp;&nbsp;&nbsp;gitGutter<br />
+&nbsp;&nbsp;&nbsp;GitGutter<br />
+&nbsp;&nbsp;&nbsp;Glue (terminal)<br />
+&nbsp;&nbsp;&nbsp;Color Highlighter<br />
 Visual Studio code<br />
 Wunderlist<br />
 Spectacle<br />
