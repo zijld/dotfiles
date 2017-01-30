@@ -10,6 +10,10 @@ ln -s $SCRIPTPATH ~/.dotfiles
 rm ~/.bash_profile
 ln -s $SCRIPTPATH/bash_profile ~/.bash_profile
 
+# setup bash
+rm ~/.bash_prompt
+ln -s $SCRIPTPATH/bash_prompt ~/.bash_prompt
+
 # setup git
 rm ~/.gitconfig
 rm ~/.gitignore
