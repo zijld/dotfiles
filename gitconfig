@@ -1,6 +1,6 @@
 [user]
-    name = juniorzjr
-    email = xxxxxx
+	name = Danny
+	email = xxxx
 [core]
     editor = subl -n -w
     autocrlf = false
