@@ -6,6 +6,7 @@
     safecrlf = false
     excludesfile = ~/.gitignore
     pager = less
+    editor = /usr/bin/vim
 [color]
     ui = true
 [push]
