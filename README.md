@@ -1,8 +1,8 @@
-#Dotfiles
+# Dotfiles
 
 My personal dotfiles.
 
-##Installation
+## Installation
 
 Open a terminal and execute the following commands:
 
@@ -13,16 +13,16 @@ sudo mkdir -p "/usr/local/bin/" && ln -s /Applications/Sublime\ Text.app/Content
 ./setup.sh
 ```
 
-Edit files with credentials:<br />
-gitconfig:<br />
-name = username git<br />
-email = email git<br />
+Edit files with credentials:\
+gitconfig:\
+name = username git\
+email = email git\
 
-##Oh my zsh + powerline + solarized iterm2
+## Oh my zsh + powerline + solarized iterm2
 
-required git and zsh<br />
-Install solorized with doubleclick in terminal<br />
-<br />
+required git and zsh\
+Install solorized with doubleclick in terminal\
+\
 Open a terminal and execute the following commands:
 
 ```sh
@@ -35,32 +35,58 @@ cd fonts
 ./install.sh
 ```
 
-##Programs
-Brew<br />
-Tmux<br />
-Iterm2 / Hyper terminal<br />
-Sequel pro<br />
-Transmit<br />
-Sublime text 3<br />
-&nbsp;&nbsp;&nbsp;Material Theme<br />
-&nbsp;&nbsp;&nbsp;Emmet<br />
-&nbsp;&nbsp;&nbsp;GitGutter<br />
-&nbsp;&nbsp;&nbsp;Glue (terminal)<br />
-&nbsp;&nbsp;&nbsp;Color Highlighter<br />
-Visual Studio code<br />
-Wunderlist<br />
-Spectacle<br />
-Alfred 3<br />
-&nbsp;&nbsp;&nbsp;alfred-devdocs<br />
-Postman<br />
-Fork<br />
-IOS lockscreen OSX<br />
-Fluid browser<br />
-Hocus Focus<br />
-IA Writer<br />
-CommandQ<br />
+## Programs
 
-#Vim
+Brew\
+Tmux\
+Iterm2 / Hyper terminal\
+Sequel pro\
+Transmit\
+Sublime text 3\
+&nbsp;&nbsp;&nbsp;Material Theme\
+&nbsp;&nbsp;&nbsp;Emmet\
+&nbsp;&nbsp;&nbsp;GitGutter\
+&nbsp;&nbsp;&nbsp;Glue (terminal)\
+&nbsp;&nbsp;&nbsp;Color Highlighter\
+Visual Studio code\
+Wunderlist\
+Spectacle\
+Alfred 3\
+&nbsp;&nbsp;&nbsp;alfred-devdocs\
+Postman\
+Fork\
+IOS lockscreen OSX\
+Fluid browser\
+Hocus Focus\
+IA Writer\
+CommandQ\
+
+## VS Code Plugins
+
+Theme\
+&nbsp;&nbsp;&nbsp;One Dark Pro\
+&nbsp;&nbsp;&nbsp;Atom One Dark Them\
+&nbsp;&nbsp;&nbsp;Night Owl\
+change-case\
+Color Highlight\
+Git History\
+PHP Formatter\
+PHP Intellisense\
+Polacode\
+Prettify JSON\
+Sort lines\
+Auto Rename Tag\
+ES7 React/Redux/GraphQL/React-Native snippets\
+Import Cost\
+Jest\
+VSCode great icons / Material icon theme\
+Sass\
+Lorem ipsum\
+Auto closing tag\
+Babel es6/es7\
+
+## Vim
+
 ```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -68,17 +94,20 @@ vim 'any file'
 :PlugInstall
 ```
 
-#Brew
+## Brew
+
 Install Npm, mariaDB, php54, php56, php70, python, upgrade pip, wget, nodejs, tmux
 
-#Bug fixes
+## Bug fixes
 
-Bug with subl:<br />
+Bug with subl:\
 
 ```sh
 brew install reattach-to-user-namespace
 ```
+
 uncomment tmux.conf rule:
+
 ```sh
 set-option -g default-command "reattach-to-user-namespace -l bash"
 ```
