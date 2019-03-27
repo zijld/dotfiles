@@ -15,7 +15,8 @@
     default = current
 [alias]
     hist = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --color --graph --abbrev-commit --date=short
-    unstage = reset --
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches
+unstage = reset --
 	uncommit = reset HEAD^
 [filter "lfs"]
 	smudge = git-lfs smudge %f
