@@ -2,6 +2,32 @@
 
 My personal dotfiles.
 
+## Programs
+
+Install font: Fira Code\
+Brew\
+Tmux\
+Iterm2 / Hyper terminal\
+Sequel pro\
+Transmit\
+Sublime text 3\
+Visual Studio code\
+Microsoft To-Do\
+Notion\
+Dropbox\
+Spectacle\
+Alfred 3\
+&nbsp;&nbsp;&nbsp;alfred-devdocs\
+Postman\
+Fork\
+IOS lockscreen OSX / Padbury clock\
+Hocus Focus\
+CheatSheet\
+Affinity Photo\
+MongoDB Compass\
+IA Writer\
+CommandQ\
+
 ## Installation
 
 Open a terminal and execute the following commands:
@@ -9,8 +35,15 @@ Open a terminal and execute the following commands:
 ```sh
 git clone https://github.com/juniorzjr/dotfiles.git
 cd dotfiles
-sudo mkdir -p "/usr/local/bin/" && ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ./setup.sh
+```
+
+## Brew
+
+```sh
+brew install npm && brew install mariaDB && brew install python && brew install wget && brew install nodejs && brew install tmux
+
+brew install php54 && brew install php56
 ```
 
 Edit files with credentials:\
@@ -18,48 +51,17 @@ gitconfig:\
 name = username git\
 email = email git\
 
-## Oh my zsh + powerline + solarized iterm2
+## Oh my zsh iterm2
 
 required git and zsh\
-Install solorized with doubleclick in terminal\
-\
 Open a terminal and execute the following commands:
 
 ```sh
 which zsh
 chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone https://github.com/altercation/solarized
-git clone https://github.com/powerline/fonts.git
-cd fonts
 ./install.sh
 ```
-
-## Programs
-
-Brew\
-Tmux\
-Iterm2 / Hyper terminal\
-Sequel pro\
-Transmit\
-Sublime text 3\
-&nbsp;&nbsp;&nbsp;Material Theme\
-&nbsp;&nbsp;&nbsp;Emmet\
-&nbsp;&nbsp;&nbsp;GitGutter\
-&nbsp;&nbsp;&nbsp;Glue (terminal)\
-&nbsp;&nbsp;&nbsp;Color Highlighter\
-Visual Studio code\
-Wunderlist\
-Spectacle\
-Alfred 3\
-&nbsp;&nbsp;&nbsp;alfred-devdocs\
-Postman\
-Fork\
-IOS lockscreen OSX\
-Fluid browser\
-Hocus Focus\
-IA Writer\
-CommandQ\
 
 ## VS Code Plugins
 
@@ -93,10 +95,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 vim 'any file'
 :PlugInstall
 ```
-
-## Brew
-
-Install Npm, mariaDB, php54, php56, php70, python, upgrade pip, wget, nodejs, tmux
 
 ## Bug fixes
 
