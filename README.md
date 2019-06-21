@@ -43,6 +43,12 @@ cd dotfiles
 ```sh
 brew install npm && brew install mariaDB && brew install python && brew install wget && brew install nodejs && brew install tmux
 
+// check if path is different from /usr/local
+npm config get prefix
+
+// If different then run
+npm config set prefix /usr/local
+
 brew install php54 && brew install php56
 ```
 
