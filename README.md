@@ -26,14 +26,14 @@ CheatSheet\
 Affinity Photo\
 MongoDB Compass\
 IA Writer\
-CommandQ\
+CommandQ
 
 ## Installation
 
 Open a terminal and execute the following commands:
 
 ```sh
-git clone https://github.com/juniorzjr/dotfiles.git
+git clone https://github.com/zijld/dotfiles.git
 cd dotfiles
 ./setup.sh
 ```
@@ -75,6 +75,8 @@ Theme\
 &nbsp;&nbsp;&nbsp;One Dark Pro\
 &nbsp;&nbsp;&nbsp;Atom One Dark Them\
 &nbsp;&nbsp;&nbsp;Night Owl\
+Prettier\
+ESLint\
 change-case\
 Color Highlight\
 Git History\

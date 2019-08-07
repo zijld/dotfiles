@@ -1,5 +1,4 @@
 {
-    "crane.showStatusBarBugReportLink": false,
     "editor.acceptSuggestionOnEnter": true,
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "block",
@@ -32,8 +31,6 @@
     "color-highlight.markerType": "underline",
     "window.zoomLevel": 0,
     "[javascript]": {
-        "eslint.enable": true,
-        "javascript.format.enable": true,
         "editor.formatOnSave": true
     },
     "prettier.singleQuote": true,

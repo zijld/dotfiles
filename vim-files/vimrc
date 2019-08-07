@@ -13,8 +13,6 @@ Plug 'tomasr/molokai'
 Plug 'chriskempson/vim-tomorrow-theme'
 call plug#end()
 
-colorscheme Tomorrow-night
-
 syntax on
 filetype plugin on
 filetype indent on
