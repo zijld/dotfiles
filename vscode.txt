@@ -1,4 +1,5 @@
 {
+    "crane.showStatusBarBugReportLink": false,
     "editor.acceptSuggestionOnEnter": true,
     "editor.cursorBlinking": "phase",
     "editor.cursorStyle": "block",
@@ -15,11 +16,11 @@
     "editor.selectionHighlight": false,
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "same",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "php.validate.executablePath": "/usr/local/bin/php",
-    "phpformatter.composer": true,
-    "phpformatter.arguments": ["--level=psr2"],
+    "php.validate.executablePath": "/usr/bin/php",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "terminal.external.osxExec": "iTerm.app",
@@ -29,15 +30,26 @@
     "workbench.statusBar.visible": true,
     "workbench.colorTheme": "Atom One Dark",
     "color-highlight.markerType": "underline",
-    "window.zoomLevel": 0,
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
+    "typescript.preferences.quoteStyle": "single",
     "prettier.singleQuote": true,
     "prettier.jsxSingleQuote": true,
-    "prettier.eslintIntegration": true,
-    "eslint.autoFixOnSave": true,
+    "namespaceResolver.autoSort": true,
+    "namespaceResolver.sortOnSave": false,
+    "namespaceResolver.sortAlphabetically": true,
+    "namespaceResolver.highlightOnSave": false,
     "emmet.includeLanguages": {
+        "twig": "html",
+        "vue-html": "html",
         "javascript": "javascriptreact"
-    }
+    },
+    "[javascript]": {
+        // "eslint.enable": true,
+        // "javascript.format.enable": true,
+        "editor.tabSize": 2,
+        // "editor.formatOnSave": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // "eslint.autoFixOnSave": true
 }

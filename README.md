@@ -82,6 +82,12 @@ Color Highlight\
 Git History\
 PHP Formatter\
 PHP Intellisense\
+PHP DocBlocker\
+PHP Namespace Resolver\
+HTML CSS Support\
+join-lines\
+Tailwind CSS IntelliSense\
+Twig\
 Polacode\
 Prettify JSON\
 Sort lines\
@@ -94,6 +100,12 @@ Sass\
 Lorem ipsum\
 Auto closing tag\
 Babel es6/es7\
+:emojisense:\
+Align\
+Debugger for chrome\
+dotENV\
+Go\
+Vetur\
 
 ## Vim
 
