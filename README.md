@@ -6,22 +6,20 @@ My personal dotfiles.
 
 Install font: Fira Code\
 Brew\
+HazeOver\
 Tmux\
 Iterm2 / Hyper terminal\
-Sequel pro\
+Sequel ace pro\
 Transmit\
-Sublime text 3\
 Visual Studio code\
-Microsoft To-Do\
 Notion\
 Dropbox\
 Spectacle\
-Alfred 3\
+Alfred 4\
 &nbsp;&nbsp;&nbsp;alfred-devdocs\
 Postman\
 Fork\
-IOS lockscreen OSX / Padbury clock\
-Hocus Focus\
+Padbury clock\
 CheatSheet\
 Affinity Photo\
 MongoDB Compass\
@@ -48,8 +46,6 @@ npm config get prefix
 
 // If different then run
 npm config set prefix /usr/local
-
-brew install php54 && brew install php56
 ```
 
 Edit files with credentials:\
