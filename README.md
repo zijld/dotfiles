@@ -65,6 +65,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ./install.sh
 ```
 
+## Fonts
+- Fira Code
+- Poppins
+- Source Code Pro
+
 ## VS Code Plugins
 
 Theme\

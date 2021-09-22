@@ -1,4 +1,5 @@
 # Path to your oh-my-zsh installation.
+ZSH_DISABLE_COMPFIX=true
 export ZSH=$HOME/.oh-my-zsh
 DEFAULT_USER=Danny
 
@@ -88,3 +89,5 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH"
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
+
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
