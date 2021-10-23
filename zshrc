@@ -91,3 +91,9 @@ function homestead() {
 }
 
 alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+alias pg_start="launchctl load ~/Library/LaunchAgents"
+alias pg_stop="launchctl unload ~/Library/LaunchAgents"
+alias mfs="php artisan migrate:refresh --seed"
+alias migrate="php artisan migrate"
+alias serve="php artisan serve"
+alias watch="npm run watch"

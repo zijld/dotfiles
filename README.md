@@ -58,6 +58,18 @@ email = email git\
 required git and zsh\
 Open a terminal and execute the following commands:
 
+## Hyper
+
+```sh
+npm i hyperterm-safepaste
+npm i hyper-frontend-delight
+
+vim ~/.hyper_plugins/node_modules/hyper-frontend-delight/index.js
+
+3 const backgroundColor = 'rgba(27,28,29,0.8)';
+4 //const backgroundColor = '#1b1c1d'
+```
+
 ```sh
 which zsh
 chsh -s /bin/zsh
