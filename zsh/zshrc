@@ -90,11 +90,15 @@ function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
 
-alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias pg_start="launchctl load ~/Library/LaunchAgents"
 alias pg_stop="launchctl unload ~/Library/LaunchAgents"
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias mfs="php artisan migrate:fresh --seed"
+alias smfs="sail artisan migrate:fresh --seed"
 alias migrate="php artisan migrate"
+alias smigrate="sail artisan migrate"
+alias sbuildnc="sail build --no-cache"
+alias sbuild="sail build"
 alias test="php artisan test"
 alias testp="php artisan test --parallel"
 alias serve="php artisan serve"
