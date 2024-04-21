@@ -56,6 +56,7 @@
     unstage = reset HEAD
     uncommit = reset --soft HEAD^
     set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+    nah = "!f(){ git reset --hard; git clean -df; if [ -d ".git/rebase-apply" ] || [ -d ".git/rebase-merge" ]; then git rebase --abort; fi; }; f"
 
 [color]
     ui = auto

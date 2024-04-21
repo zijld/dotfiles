@@ -103,3 +103,5 @@ alias test="php artisan test"
 alias testp="php artisan test --parallel"
 alias serve="php artisan serve"
 alias watch="npm run watch"
+export PATH=/opt/homebrew/bin:/usr/local/opt/sqlite/bin:/Users/dzijlstra/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH="/opt/homebrew/sbin:$PATH"

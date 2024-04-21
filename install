@@ -5,16 +5,13 @@ DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 rm -rf $HOME/.dotfiles
 ln -s $DOTFILES $HOME/.dotfiles
 
+# Oh My Zsh
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
 # setup zsh
 ln -sf $DOTFILES/zsh/zshrc $HOME/.zshrc
-
-# setup nvim
-rm -rf $HOME/.config/nvim
-ln -s $DOTFILES/nvim $HOME/.config/nvim
-
-# setup nvm
-mkdir -p $HOME/.nvm
-ln -sf $DOTFILES/nvm/default-packages $HOME/.nvm/default-packages
 
 # setup bash
 ln -sf $DOTFILES/bash/bash_profile $HOME/.bash_profile
@@ -27,33 +24,8 @@ ln -sf $DOTFILES/git/gitignore_global $HOME/.gitignore_global
 # setup tmux
 ln -sf $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf
 
-# PHP actor
-rm -rf $HOME/.config/phpactor
-ln -s $DOTFILES/phpactor $HOME/.config/phpactor
-
-# install oh-my-zsh of not exist
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-    KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
-
 # setup hyper.js
-ln -sf $DOTFILES/hyper.js $HOME/.hyper.js
+# ln -sf $DOTFILES/hyper.js $HOME/.hyper.js
 
 # setup vim
 rm -rf $HOME/.vim $HOME/.vimrc && curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && ln -s $(pwd)/vim-files/vimrc $HOME/.vimrc && ln -s $(pwd)/vim-files/colors $HOME/.vim/colors
-
-# mkdir -p $HOME/.local/bin
-
-# ln -sf $DOTFILES/scripts/t $HOME/.local/bin/t
-# ln -sf $DOTFILES/scripts/deliver $HOME/.local/bin/deliver
-
-
-
-
-
-
-
-
-
-
-

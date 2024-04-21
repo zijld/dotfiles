@@ -1,12 +1,18 @@
 #!/bin/bash
 
-os=`cat /etc/fedora-release | awk '{printf "%s %s", $1, $3}'`
-rootUsed=`df -h --output=used / | tail -n1 | tr -d ' \n'`
-rootTotal=`df -h --output=size / | tail -n1 | tr -d ' \n'`
-memUsed=`free -m | grep "Mem" | awk '{printf "%.1fG", $3/1000}'`
-memTotal=`free -m | grep "Mem" | awk '{printf "%.fG", $2/1000}'`
-cpuTemp=`sensors | grep CPU | awk '{print $2}' | sed 's/+//' | tr -d '\n'`
-loadAvg=`cat /proc/loadavg | awk '{printf "%s %s %s", $1, $2, $3}'`
+OS=`uname -s`
+REV=`uname -r`
+MACH=`uname -m`
+if [ "${OS}" = "Darwin" ]; then
+    OIFS="$IFS"
+    IFS=$'\n'
+    set `sw_vers` > /dev/null
+    DIST=`echo $1 | tr "\t" ' ' | sed 's/ProductName:[ ]*//'`
+    VERSION=`echo $2 | tr "\t" ' ' | sed 's/ProductVersion:[ ]*//'`
+    BUILD=`echo $3 | tr "\t" ' ' | sed 's/BuildVersion:[ ]*//'`
+    OSSTR="${OS} ${DIST} ${REV} ($BUILD $MACH)"
+    IFS="$OIFS"
+fi
 
 printf "
                              ⣠⣤⣤⣤⣤⡤
@@ -16,5 +22,7 @@ printf "
              ⢀⣴⣿⣿⣿⡿⠋⢀⣾⣿⣿⣿⡿⠁
             ⣴⣿⣿⣿⣿⠟⢀⣴⣿⣿⣿⡿⠋
           ⣠⣾⣿⣿⣿⡟⠁⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-        ⣠⣾⣿⣿⣿⡿⠋                              $rootUsed/$rootTotal   $memUsed/$memTotal   $cpuTemp  辰$loadAvg
-" | lolcat --truecolor --seed=22 --spread=6
+        ⣠⣾⣿⣿⣿⡿⠋
+
+        $OSSTR
+" | lolcat --truecolor --seed=2 --spread=6
