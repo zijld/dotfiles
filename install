@@ -24,8 +24,5 @@ ln -sf $DOTFILES/git/gitignore_global $HOME/.gitignore_global
 # setup tmux
 ln -sf $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf
 
-# setup hyper.js
-# ln -sf $DOTFILES/hyper.js $HOME/.hyper.js
-
 # setup vim
 rm -rf $HOME/.vim $HOME/.vimrc && curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && ln -s $(pwd)/vim-files/vimrc $HOME/.vimrc && ln -s $(pwd)/vim-files/colors $HOME/.vim/colors
