@@ -1,10 +1,11 @@
 #!/usr/bin/env sh
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
 brew install \
     cask \
     mtr \
     htop \
+    git-delta \
     coreutils \
     nmap \
     python \
